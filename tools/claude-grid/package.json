@@ -1,0 +1,15 @@
+{
+  "name": "claude-grid",
+  "displayName": "Claude Grid",
+  "description": "Open 4 Claude Code terminals in a 2x2 editor grid.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "engines": { "vscode": "^1.85.0" },
+  "main": "./extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      { "command": "claudeGrid.open", "title": "Claude: Open 2x2 Terminal Grid" }
+    ]
+  }
+}

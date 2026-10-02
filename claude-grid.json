@@ -1,0 +1,9 @@
+{
+  "command": "claude --worktree",
+  "terminals": [
+    { "name": "Top-left",     "folder": "." },
+    { "name": "Top-right",    "folder": "." },
+    { "name": "Bottom-left",  "folder": "." },
+    { "name": "Bottom-right", "folder": "." }
+  ]
+}
